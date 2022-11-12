@@ -1,0 +1,101 @@
+:root{
+    --blanco: #FEFEFE;
+    --azul: #0000FF;
+    --rojo: #ED5144;
+    --amarilo:#D3D824;
+    --azul1:#325AA6;
+    --verde_oscuro:#1C2E14;
+    --azul2: #0A3586;
+    --negro: #000000;
+    --claro: #EBEBEB;
+    --verde_bajo: #80D25B;
+    --aqua: #22BA8E;
+    --gris_azul: #114B5F;
+    --verde_ocuro:#6CB14F;
+}
+
+.ContenedorLog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../../assets/img/team.jpg);
+}
+.ContenedorAll{
+    display: flex;
+    margin-top: 50px;
+}
+.ContenedorAcces{
+    display:flex;
+    flex-direction: column;
+    background-color: var(--claro);
+    width: 50vh;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px 0px 0px 40px;
+}
+.ContenedorImg{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gris_azul);
+    width: 50vh;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 40px 40px 0px;
+}
+.LogoScuro{
+    width: 200px;
+}
+
+.Inputs{
+   margin-top: 40px;
+}
+
+.BotonInicio{
+    margin: 7px;
+    background-color: var(--verde_bajo);
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: var(--gris_azul);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.BotonInicio:hover{
+    color: var(--verde_bajo);
+    background-color: var(--gris_azul);
+}
+.Iniciar{
+    display: flex;
+    margin-top: 30px;
+}
+
+.Parrafo{
+    font-size: 15px;
+    color: var(--gris_azul);
+}
+.blok{
+    display: grid;
+    justify-items: right;
+}
+
+.Titulo{
+    font-size: 16px;
+    color: var(--verde_bajo);
+}
+.ContenedorImg h1{
+    color: var(--claro);
+    font-size: 30px;
+}
+
+.Img1{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.Stive{
+    color: var(--verde_bajo);
+}

@@ -11,7 +11,7 @@ function banner() {
         <h1>El crecimiento empresarial a un click</h1>
         <br></br>
         <h2>"Con nosotros tu formacion empresarial a otro nivel"</h2>
-        <h2>Capasitate ahora...!</h2>
+        <h2>Capacítate ahora...!</h2>
     </div>
   )
 }

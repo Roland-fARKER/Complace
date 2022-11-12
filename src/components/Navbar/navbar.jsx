@@ -13,13 +13,13 @@ function navbar() {
       <div className='container_nav'>
       <ul>
         <li className='text_di'>Inicio</li>
-        <li className='text' >sobre nosotros</li>
+        <li className='text' >Sobre nosotros</li>
         <li className='text' >Cursos</li>
         <li className='text' >Capacitaciones</li>
         <AddShoppingCartIcon className='icono'/>
         <NotificationsActiveOutlinedIcon className='icono' />
         <Button variant="contained" color="success" className='btn_sus'>
-          Susbrirse
+          Suscribirse
         </Button>
       </ul>
       </div>

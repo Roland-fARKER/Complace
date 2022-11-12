@@ -24,9 +24,9 @@ function span() {
                     <p>búsqueda de empleo</p>
                 </div>
                 <div className='caja_4'>
-                    <h1>Economía</h1>
-                    <p>Impulsamo el emprendimiento</p>
-                    <p>en nicaragua.</p>
+                    <h1>Instituciones</h1>
+                    <p>Desarrollando el talento humano</p>
+                    <p>Para el servicio social.</p>
                 </div>
             </div>
         </div>

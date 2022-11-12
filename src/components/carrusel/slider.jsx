@@ -6,7 +6,8 @@ import { dataCursos } from "./data";
 import "./stilo.css";
 import StarIcon from '@mui/icons-material/Star';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
-
+import { Link } from "react-router-dom";
+import  Button  from '@mui/material/Button';
 
 export default class Responsive extends Component {
   render() {
@@ -58,6 +59,11 @@ export default class Responsive extends Component {
                             <div className="card-bottom">
                                 <h3>{item.Precio}</h3>
                                 <p>{item.nivel}</p>
+                                
+                                <Link to={"/Vista"} className="link">
+                                  <Button variant="outlined">Mas info.</Button>
+                                </Link>
+                                
                                 <div className="calificacion">
                                     <StarIcon/>
                                     <StarIcon/>

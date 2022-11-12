@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import images from "../../assets/images";
 import FacebookIcon from '@mui/icons-material/Facebook';

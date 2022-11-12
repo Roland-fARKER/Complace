@@ -14,12 +14,15 @@
     --verde_ocuro:#6CB14F;
 }
 
+.link{
+    text-decoration: none;
+}
 .fondo{
     background-color: var(--verde_bajo);
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 45vh;
+    height: 50vh;
     margin-top: 20px;
 }
 .titulo{
