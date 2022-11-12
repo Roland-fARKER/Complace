@@ -16,8 +16,6 @@
 .ContenedorVista{
     display: flex;
     margin-top: 20px;
-    justify-content: center;
-
 }
 
 .vista_1{
