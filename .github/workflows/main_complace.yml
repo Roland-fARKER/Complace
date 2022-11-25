@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'Complace'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_68EF01D62EFC4CE58B7ADC69FE972CEE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4A21ACDE9E5D4084BB1B6EF12F4A52E2 }}
           package: .
