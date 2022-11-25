@@ -12,7 +12,7 @@ function estudiantes() {
             <div className='grupo_1'>
                 <span>
                     <h1>
-                        12
+                        4
                     </h1>
                     <p>
                         Categorias
